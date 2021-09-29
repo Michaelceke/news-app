@@ -7,7 +7,7 @@
   ],
   "rules": {
     "no-console": "warn",
-    "prettier/prettier": "error",
+    "prettier/prettier": "warn",
     "semi": ["warn", "always"],
     "quotes": ["warn", "double"],
     "comma-dangle": ["error", "never"],
@@ -17,6 +17,7 @@
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/jsx-one-expression-per-line": "off",
     "react/react-in-jsx-scope": "off"
+  
   },
   "plugins": ["react", "jest"],
   "env": {

@@ -1,0 +1,31 @@
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:rgb(28, 44, 97);
+    width:95vw;
+    height:80px;
+    padding:10px 50px;
+    color:white;
+}
+.header-left{
+    padding:20px
+
+}
+.header-right{
+    display:flex;
+    justify-content: space-between;
+    width:20%;
+    padding:20px
+}
+
+.navbar{
+   width:100%;
+   text-align:center;
+   margin:0px 10px;
+}
+.navbar:hover{
+    color:black;
+    cursor:pointer;
+}
