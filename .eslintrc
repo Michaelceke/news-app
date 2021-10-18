@@ -10,13 +10,19 @@
     "prettier/prettier": "warn",
     "semi": ["warn", "always"],
     "quotes": ["warn", "double"],
-    "comma-dangle": ["error", "never"],
+    "comma-dangle": ["off", "never"],
     "linebreak-style": 0,
     "allowIndentationTabs": "off",
     "arrow-body-style": ["off", "never"],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/jsx-one-expression-per-line": "off",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-props-no-spreading": [2, {
+      "html": "ignore",
+      "custom": "ignore",
+      "explicitSpread": "ignore",
+      "exceptions": ["explicitSpread"]
+  }]
   
   },
   "plugins": ["react", "jest"],
