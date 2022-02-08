@@ -12,7 +12,7 @@ const CustomRoute = ({ children, isLoggedIn, ...rest }) => {
           <Redirect
             to={{
               pathname: "/",
-              state: { from: location }
+              state: { from: location },
             }}
           />
         );
@@ -24,7 +24,7 @@ const CustomRoute = ({ children, isLoggedIn, ...rest }) => {
 
 CustomRoute.propTypes = {
   children: PropTypes.node.isRequired,
-  isLoggedIn: PropTypes.bool.isRequired
+  isLoggedIn: PropTypes.bool.isRequired,
 };
 
 export default CustomRoute;
